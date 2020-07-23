@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45973" started-at="2020-07-23T03:05:58 CEST" finished-at="2020-07-23T03:06:44 CEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45973" started-at="2020-07-23T03:05:58 CEST" finished-at="2020-07-23T03:06:44 CEST">
+      <class name="testCases.All_Collections">
+        <test-method status="PASS" signature="check_the_arrey_isnt_empty()[pri:0, instance:testCases.All_Collections@3e96bacf]" name="check_the_arrey_isnt_empty" duration-ms="3588" started-at="2020-07-23T03:06:18 CEST" finished-at="2020-07-23T03:06:22 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_the_arrey_isnt_empty -->
+        <test-method status="PASS" signature="check_the_id()[pri:0, instance:testCases.All_Collections@3e96bacf]" name="check_the_id" duration-ms="2707" started-at="2020-07-23T03:06:22 CEST" finished-at="2020-07-23T03:06:24 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_the_id -->
+        <test-method status="PASS" signature="check_the_uid()[pri:0, instance:testCases.All_Collections@3e96bacf]" name="check_the_uid" duration-ms="2609" started-at="2020-07-23T03:06:24 CEST" finished-at="2020-07-23T03:06:27 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_the_uid -->
+        <test-method status="PASS" signature="name_should_be_My_Collection()[pri:0, instance:testCases.All_Collections@3e96bacf]" name="name_should_be_My_Collection" duration-ms="3386" started-at="2020-07-23T03:06:27 CEST" finished-at="2020-07-23T03:06:30 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name_should_be_My_Collection -->
+        <test-method status="PASS" signature="owner_should_be_10144889()[pri:0, instance:testCases.All_Collections@3e96bacf]" name="owner_should_be_10144889" duration-ms="2534" started-at="2020-07-23T03:06:30 CEST" finished-at="2020-07-23T03:06:33 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- owner_should_be_10144889 -->
+        <test-method status="PASS" signature="status_code_should_be_200()[pri:0, instance:testCases.All_Collections@3e96bacf]" name="status_code_should_be_200" duration-ms="2481" started-at="2020-07-23T03:06:33 CEST" finished-at="2020-07-23T03:06:36 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status_code_should_be_200 -->
+      </class> <!-- testCases.All_Collections -->
+      <class name="testCases.Create_Collection">
+        <test-method status="PASS" signature="collection_should__not_be_created_negative_test()[pri:0, instance:testCases.Create_Collection@3571b748]" name="collection_should__not_be_created_negative_test" duration-ms="15710" started-at="2020-07-23T03:05:58 CEST" finished-at="2020-07-23T03:06:14 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collection_should__not_be_created_negative_test -->
+        <test-method status="PASS" signature="status_code_should_be_200()[pri:0, instance:testCases.Create_Collection@3571b748]" name="status_code_should_be_200" duration-ms="4122" started-at="2020-07-23T03:06:14 CEST" finished-at="2020-07-23T03:06:18 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status_code_should_be_200 -->
+      </class> <!-- testCases.Create_Collection -->
+      <class name="testCases.Single_Collection">
+        <test-method status="PASS" signature="check_the_postman_id()[pri:0, instance:testCases.Single_Collection@484970b0]" name="check_the_postman_id" duration-ms="2536" started-at="2020-07-23T03:06:36 CEST" finished-at="2020-07-23T03:06:38 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_the_postman_id -->
+        <test-method status="PASS" signature="checking_response_without_apikey_negative_test()[pri:0, instance:testCases.Single_Collection@484970b0]" name="checking_response_without_apikey_negative_test" duration-ms="3561" started-at="2020-07-23T03:06:38 CEST" finished-at="2020-07-23T03:06:42 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checking_response_without_apikey_negative_test -->
+        <test-method status="PASS" signature="status_code_should_be_200()[pri:0, instance:testCases.Single_Collection@484970b0]" name="status_code_should_be_200" duration-ms="2397" started-at="2020-07-23T03:06:42 CEST" finished-at="2020-07-23T03:06:44 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status_code_should_be_200 -->
+      </class> <!-- testCases.Single_Collection -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
